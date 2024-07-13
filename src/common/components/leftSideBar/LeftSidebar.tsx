@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const LeftSideBar: React.FC = () => {
+export const LeftSidebar: React.FC = () => {
     return (
         <div>
 
