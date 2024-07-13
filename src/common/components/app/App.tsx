@@ -1,4 +1,4 @@
-import './App.css'
+import 'common/components/app/App.css'
 
 function App() {
 
