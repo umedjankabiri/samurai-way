@@ -1,6 +1,6 @@
 .feeds {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
     border: red solid 1px;
     border-radius: 10px;
