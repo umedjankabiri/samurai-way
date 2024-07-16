@@ -1,0 +1,23 @@
+.stories {
+    display: flex;
+    flex-direction: column;
+}
+
+.storiesContent {
+    display: flex;
+    flex-direction: row;
+}
+.addStoryIcon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.userStory {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: #f1f3f8;;
+}
