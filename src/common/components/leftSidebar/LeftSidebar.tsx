@@ -31,7 +31,7 @@ export const LeftSidebar: React.FC = () => {
                     300 following
                 </div>
             </div>
-            <div className={s.buttonsWrapper}>
+            <div className={s.NavLinkWrapper}>
                 <NavLink to="#" className={s.toMain}>Main</NavLink>
                 <NavLink to="#" className={s.toMessages}>Messages</NavLink>
                 <NavLink to="#" className={s.toFind}>Find</NavLink>
