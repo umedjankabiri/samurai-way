@@ -1,0 +1,12 @@
+.feeds {
+    display: flex;
+    flex-direction: row;
+
+    border: red solid 1px;
+    border-radius: 10px;
+    width: 788px;
+    height: 1080px;
+    background-color: #fff;
+    margin: 20px 10px;
+    padding: 20px 60px;
+}
