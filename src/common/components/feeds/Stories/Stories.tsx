@@ -5,12 +5,9 @@ export const Stories: React.FC = () => {
     return (
         <section className={s.stories}>
             <div className={s.storiesWrapper}>
-                <div className={s.addStory}>
-                    <span>Add story</span>
-                </div>
-
-                <div className={s.usersStory}>
-
+                <div className={s.usersStories}>
+                    <div className={s.story}></div>
+                    <span>User Name</span>
                 </div>
             </div>
         </section>
