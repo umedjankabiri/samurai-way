@@ -111,7 +111,7 @@
     color: #07131c;
 }
 
-.buttonsWrapper {
+.NavLinkWrapper {
     display: flex;
     flex-direction: column;
 
@@ -136,10 +136,11 @@
     text-decoration: none;
 
     &:hover {
-        background: #4E56D3;
-        color: #cdfe64;
+        background: #f1f3f8;
+        color: #000;
     }
     &:active {
-        color: #002947;
+        background: #4E56D3;
+        color: #cdfe64;
     }
 }
