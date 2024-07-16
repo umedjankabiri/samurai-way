@@ -3,16 +3,18 @@
     flex-direction: column;
 }
 
-.storiesContent {
+.storiesWrapper {
     display: flex;
     flex-direction: row;
 }
-.addStoryIcon {
+.addStory {
     display: flex;
     flex-direction: column;
     text-align: center;
+
+    padding-bottom: 10px;
 }
-.userStory {
+.usersStory {
     display: flex;
     flex-direction: column;
 
