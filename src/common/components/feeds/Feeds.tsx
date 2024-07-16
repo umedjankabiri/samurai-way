@@ -8,7 +8,13 @@ export const Feeds: React.FC = () => {
     return (
         <section className={s.feeds}>
             <Title className={s1.storiesTitle}>Stories</Title>
-            <Stories/>
+            <div className={s.feedsWrapper}>
+                <Stories/>
+                <Stories/>
+                <Stories/>
+                <Stories/>
+                <Stories/>
+            </div>
         </section>
     );
 };
