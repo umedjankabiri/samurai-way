@@ -1,9 +1,10 @@
 import React from 'react';
+import s from './Feeds.module.css'
 
 export const Feeds: React.FC = () => {
     return (
-        <div>
+        <section className={s.feeds}>
             
-        </div>
+        </section>
     );
 };

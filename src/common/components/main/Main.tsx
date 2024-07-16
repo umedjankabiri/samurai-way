@@ -6,10 +6,10 @@ import {RightSidebar} from "common/components/rightSidebar/RightSidebar.tsx";
 
 export const Main: React.FC = () => {
     return (
-        <div className={s.mainWrapper}>
+        <section className={s.mainWrapper}>
             <LeftSidebar/>
             <Feeds/>
             <RightSidebar/>
-        </div>
+        </section>
     );
 };

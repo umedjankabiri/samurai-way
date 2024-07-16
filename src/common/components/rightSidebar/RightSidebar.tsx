@@ -1,9 +1,10 @@
 import React from 'react';
+import s from './RightSidebar.module.css'
 
 export const RightSidebar: React.FC = () => {
     return (
-        <div>
+        <section className={s.rightSidebar}>
 
-        </div>
+        </section>
     );
 };
