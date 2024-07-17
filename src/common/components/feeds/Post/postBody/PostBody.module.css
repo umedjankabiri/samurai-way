@@ -1,0 +1,15 @@
+.postBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+    width: 668px;
+    height: 668px;
+    background-color: #f1f3f8;
+}
+
+.postBodyWrapper {
+
+}
