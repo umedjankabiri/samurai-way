@@ -1,0 +1,25 @@
+.postButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 15px;
+
+    width: 318px;
+    height: 70px;
+}
+
+.bellButton {
+    border-radius: 300px;
+    width: 60px;
+    height: 60px;
+    background-color: #4e56d3;
+}
+
+.followButton {
+    border-radius: 100px;
+    padding: 10px 16px;
+    width: 166px;
+    height: 60px;
+    background-color: #f1f3f8;
+}
