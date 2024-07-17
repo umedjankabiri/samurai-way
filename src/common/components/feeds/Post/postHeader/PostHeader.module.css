@@ -1,0 +1,61 @@
+.userPost {
+    display: flex;
+    flex-direction: row;
+
+    width: 668px;
+    margin-bottom: 20px;
+}
+
+.PostHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.userAvatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+
+    width: 350px;
+    height: 70px;
+}
+
+.avatar {
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    background: #f5f5f5;
+
+    & img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+    }
+}
+
+.useName {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+
+    min-width: 250px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.name, .nickName {
+    width: 250px;
+    height: 25px;
+
+    font-family: Helvetica sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #07131c;
+}
+
+.nickName {
+    display: block;
+}
