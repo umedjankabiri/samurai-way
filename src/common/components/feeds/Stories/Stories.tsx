@@ -7,7 +7,7 @@ export const Stories: React.FC = () => {
             <div className={s.storiesWrapper}>
                 <div className={s.usersStories}>
                     <div className={s.story}></div>
-                    <span>User Name</span>
+                    <span className={s.userName}>User Name</span>
                 </div>
             </div>
         </section>
