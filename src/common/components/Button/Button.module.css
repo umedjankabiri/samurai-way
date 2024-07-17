@@ -10,16 +10,43 @@
 }
 
 .bellButton {
+    border: none;
     border-radius: 300px;
     width: 60px;
     height: 60px;
-    background-color: #4e56d3;
+    background-color: #f1f3f8;
+
+    &:hover {
+        background-color: #4e56d3;
+        color: #fff;
+    }
+    &:active {
+        background-color: #4e56d3;
+        color: #cdfe64;
+    }
 }
 
 .followButton {
+    border: none;
     border-radius: 100px;
     padding: 10px 16px;
     width: 166px;
     height: 60px;
     background-color: #f1f3f8;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #07131c;
+
+    &:hover {
+        background-color: #4e56d3;
+        color: #fff;
+    }
+    &:active {
+        background-color: #4e56d3;
+        color: #cdfe64;
+    }
+
 }
