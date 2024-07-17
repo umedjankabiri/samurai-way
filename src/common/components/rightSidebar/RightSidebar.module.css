@@ -10,3 +10,37 @@
     margin: 20px 10px;
     padding: 20px 40px;
 }
+
+.rightSidebarWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchInput {
+    position: relative;
+}
+
+.search {
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    padding: 10px 70px;
+    width: 280px;
+    height: 70px;
+    background-color: #f1f3f8;
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+    color: #07131c;
+}
+
+.svgSearch {
+    position: absolute;
+    left: 25px; top: 36px;
+}
+
+.title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
