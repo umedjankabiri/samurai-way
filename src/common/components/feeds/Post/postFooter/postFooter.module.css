@@ -59,6 +59,7 @@
     align-items: center;
     gap: 20px;
 
+    border: none;
     border-radius: 100px;
     padding: 10px 16px;
     width: 166px;
@@ -70,6 +71,15 @@
     text-align: center;
     color: #07131c;
     background-color: #D1D4FF;
+
+    &:hover {
+        background-color: #4e56d3;
+        color: #fff;
+    }
+    &:active {
+        background-color: #4e56d3;
+        color: #cdfe64;
+    }
 }
 
 .numberOf {
