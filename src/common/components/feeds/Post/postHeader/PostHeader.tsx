@@ -1,6 +1,6 @@
 import React from 'react';
 import s from "common/components/feeds/Post/postHeader/PostHeader.module.css" // CSS styles for Post.tsx
-import s1 from "common/components/Button/Button.module.css" // CSS styles for Button.tsx
+import s1 from "common/components/Button/Button.module.css" // CSS styles for button.tsx
 import {Button} from "common/components/Button/Button.tsx";
 import {SvgIcons} from "common/components/svgIcons/SvgIcons.tsx";
 
@@ -14,7 +14,7 @@ export const PostHeader: React.FC = () => {
                     </div>
                     <div className={s.userName}>
                         <span className={s.name}>John ANDERSON</span>
-                        <span className={s.nickName}>mr.Smith</span>
+                        <span className={s.nickName}>mr. Smith</span>
                     </div>
                 </div>
                 <div className={s1.postButtons}>
