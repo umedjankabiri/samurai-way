@@ -2,17 +2,27 @@
     display: flex;
     flex-direction: column;
 
-    border: red solid 1px;
+    user-select: none;
     border-radius: 10px;
     width: 788px;
-    height: 1080px;
+    height: 1400px;
     background-color: #fff;
     margin: 20px 10px;
     padding: 20px 60px;
 }
+
 .feedsWrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px
+}
+.titleWrapper {
+    margin-top: 60px;
+}
+
+.componentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
