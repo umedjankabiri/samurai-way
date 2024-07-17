@@ -1,0 +1,81 @@
+.postFooter {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 20px;
+}
+
+.postFooterWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 668px;
+    height: 70px;
+}
+
+.icons {
+    display: flex;
+    gap: 5px;
+}
+
+.likeWrapper, .commentsWrapper, .shareWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.commentsWrapper, .shareWrapper {
+    margin-left: 20px;
+}
+
+.like {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.comments {
+
+}
+
+.share {
+
+}
+
+.collect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.collectButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    border-radius: 100px;
+    padding: 10px 16px;
+    width: 166px;
+    height: 60px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #07131c;
+    background-color: #D1D4FF;
+}
+
+.numberOf {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: #07131c;
+}
